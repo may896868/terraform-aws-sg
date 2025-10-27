@@ -12,7 +12,7 @@ variable "sg_name" {
 
 variable "sg_tags" {
     type = map
-   
+   default = {}
 }
 
 variable "sg_description" {
