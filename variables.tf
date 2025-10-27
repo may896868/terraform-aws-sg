@@ -17,9 +17,3 @@ variable "sg_description" {
 variable "vpc_id" {
     type = string
 }
-
-variable "vpc_id" {
-    type = map
-    default = {}
-}
-

@@ -16,6 +16,7 @@ resource "aws_security_group" "main" {
     local.common_tags,
     {
         Name = "${local.common_name_suffix}-${var.sg_name}" ##roboshop-dev-catalogue
+    }
   )
 }
 
